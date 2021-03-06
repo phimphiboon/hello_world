@@ -21,12 +21,20 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
         ),
         body: Center(
-          child: Container(
-          width: 150,
-          height: 150,
-          color: Colors.red,
-          child: Image.asset('assets/images/1.jpg'),
-        ),),
+          child: Column(
+            children: [
+              Container(
+                color: Colors.red,
+                child: Text("flwkrjgwiu;N;S")),
+              Text("flwkrjgwiu;N;S"),
+              Container(
+              width: 150,
+              height: 150,
+              color: Colors.red,
+              child: Image.asset('assets/images/1.jpg'),
+        ),
+            ],
+          ),),
         bottomNavigationBar: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(
